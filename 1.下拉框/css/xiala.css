@@ -1,0 +1,15 @@
+.clearfix {zoom: 1;}
+.clearfix:after {content: "020";height: 0px;display: block;overflow: hidden;clear: both;}
+.ele{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+* {margin: 0;padding: 0;font-family: "微软雅黑";}
+body {min-width: 1200px;}
+a:link {text-decoration: none;outline: none;}
+input, button, select {outline: none;border: none;}
+/* 以上为通用设置 */
+/* 头部样式设置开始 */
+.main_box {width: 1200px;margin: 0 auto;padding: 100px 0;}
+.choose_box {width: 180px;background-color: transparent;text-align: left;padding-left: 13px;cursor: pointer;position: relative;cursor: pointer;background: url('../img/xl_arr.png') 155px center no-repeat;border: 1px solid #ccc;}
+.select_box {position: absolute;top: 100%;left: 0;width: 100%;border: 1px solid #b5d1e9;color: #333;display: none;max-height: 152px;overflow: auto !important;}
+.select_box li {height: 30px;line-height: 30px;color: #333;background-color: #fff;text-align: left;padding-left: 12px;}
+.select_box li:hover {background-color: #2054af;color: #fff;}
+.select_box li:hover a {color: #fff;}

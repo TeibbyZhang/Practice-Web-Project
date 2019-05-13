@@ -1,0 +1,36 @@
+.clearfix {zoom: 1;}
+.clearfix:after {content: "020";height: 0px;display: block;overflow: hidden;clear: both;}
+.ele{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+* {margin: 0;padding: 0;font-family: "微软雅黑";}
+body {min-width: 1200px;}
+a:link {text-decoration: none;outline: none;}
+input, button, select {outline: none;border: none;}
+.bt-height-25 {width: 100%;height: 25px;}
+.bt-height-30 {width: 100%;height: 30px;}
+.bt-height-20 {width: 100%;height: 20px;}
+.bt-height-15 {width: 100%;height: 15px;}
+/* 以上为通用设置 */
+/* 主体设置开始 */
+body {background-color: blue;}
+.center_box {width: 1240px;margin: auto;height: 270px;position: fixed;left: 0;top: 0;right: 0;bottom: 0;}
+.gg_lm_box {width: 1200px;height: 411px;margin: 0 auto;}
+.platform li {background-color: orange;}
+
+
+.prev {position: absolute;right: 1250px;top: 50%;width: 52px;height: 96px;-ms-transform: translate(0, -50%);transform: translate(0, -50%);background: url('../img/prev.png') center no-repeat;}
+.next {position: absolute;left: 1250px;top: 50%;width: 52px;height: 96px;-ms-transform: translate(0, -50%);transform: translate(0, -50%);background: url('../img/next.png') center no-repeat;}
+.prev:hover, .next:hover {background-color: rgba(51, 51, 51, 0.3);}
+
+.select_container {width: 1240px;height: 270px;overflow: hidden;}
+.select_box {width: 9999px;height: 270px;position: relative;}
+.select_box > li {width: 1240px;height: 270px;float: left;}
+.platform {width: 1240px;height: 270px;padding: 20px;overflow: hidden;}
+.platform > li {width: 215px;height: 100px;float: left;margin-left: 30px;margin-bottom: 30px;position: relative;color: #fff;}
+.platform > li:nth-child(5n-4) {margin-left: 0;}
+.platform > li:hover {transform: scale(1.1);box-shadow: -6px 6px 6px #102036;}
+.platform > li > a {display: block;width: 100%;height: 100%;}
+.system_name {color: #fff;font-size: 17px;padding-top: 10px;margin-left: 10px;height: 30px;line-height: 25px;}
+.dbsx:before {content: "待办事项：";color: #fff;}
+.dbsx {font-size: 15px;margin-top: 10px;margin-left: 10px;height: 18px;line-height: 18px;color: #f00;}
+.logo {position: absolute;bottom: 10px;right: 10px;width: 36px;height: 36px;}
+.logo img {width: 36px;height: 36px;}
