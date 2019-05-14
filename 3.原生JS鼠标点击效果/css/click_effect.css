@@ -1,0 +1,9 @@
+* {padding: 0;margin: 0;box-sizing: border-box;outline: none;border: none;font-family: "Microsoft YaHei";}
+body {width: 100vw;height: 100vh;display: -webkit-flex;display: flex;flex-flow: row wrap;justify-content: center;align-items: center;}
+.content_box {width: 400px;height: 330px;background: #ccc;}
+.img_box {width: 400px;height: 300px;background-color: #000;cursor: default;padding: 20px 30px;}
+.tb-cell-layout {display: table-cell;vertical-align: middle;text-align: center;font-size: 26px;color: #fff;font-size: 35px;}
+.btn_box {width: 100%;height: 30px;background-color: #666;text-align: center;line-height: 30px;}
+.btn_box a {color: #fff;text-decoration: none;}
+.btn_box .active {color: #f00;}
+.heartContainer {position: absolute;transform: translate(-50%, -50%);}
