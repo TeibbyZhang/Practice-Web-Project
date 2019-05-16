@@ -1,0 +1,4 @@
+* {padding: 0;margin: 0;outline: none;border: none;font-family: "Microsoft YaHei";list-style: none;}
+body {width: 100vw;height: 100vh;}
+.photo_box {position: fixed;top: 0;left: 0;bottom: 0;right: 0;margin: auto;width: 660px;height: 660px;border: 1px solid #f00;}
+li {float: left;width: 200px;height: 200px;margin: 10px;background: #f00;}
