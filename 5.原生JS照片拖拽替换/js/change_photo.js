@@ -54,4 +54,5 @@ function impact(obj) {
 			return i + 1;
 		}
 	}
+	return false;
 }
